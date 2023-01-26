@@ -1,0 +1,50 @@
+@import url('reset.css');
+
+/* quote */
+blockquote{
+    width:60%;
+    margin:auto;
+    margin-top:5%;
+    position:relative;
+}
+.quote {
+    font-size:2rem;
+    font-style: italic;
+    position:relative;
+}
+.quote_by {
+    position:relative;
+    right:0%;
+    font-size:1.2rem;
+}
+
+/* menu_tab */
+.col-md-6 {
+    text-align:center;
+}
+
+.main .row {
+    margin-top:5%;
+}
+.menu_btn {
+    height:20vh;
+}
+.menu_btn p{
+    width:80%;
+    margin:auto;
+    margin-top:5%;
+    font-size:1.2rem;
+    overflow: hidden;
+}
+.menu_btn .btn {
+    width:80%;
+    border: none;
+    font-size:1.5rem;
+}
+.menu_btn .btn:hover {
+    background-color:#999;
+    color:#fff;
+}
+.menu_btn .btn i{
+    font-size:4rem;
+}
